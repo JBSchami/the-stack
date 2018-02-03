@@ -11,7 +11,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Simple Stack");
+        primaryStage.setTitle("The Stack");
         primaryStage.setScene(new Scene(root, 810, 300));//325 with top bar
         primaryStage.getIcons().add(new Image(ClassLoader.getSystemResourceAsStream("images/Logo.png")));
         primaryStage.show();

@@ -15,7 +15,7 @@
             </padding>
 
             <VBox spacing="10">
-                <Label text = "Component Stackup" style="-fx-font-weight: bold">
+                <Label text = "Parts" style="-fx-font-weight: bold">
 
                 </Label>
 
